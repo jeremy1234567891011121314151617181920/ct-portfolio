@@ -1,3 +1,59 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: deepskyblue;
+    font-family: sans-serif;
+}
+
+.page-layout {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+header,
+footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    gap: 20px
+}
+
+.links a {
+    text-decoration: none;
+    color: blue;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+
+
+.container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 300px;
+    height: 300px;
+    background-color: yellow;
+    font-size: 35px;
+    color: black;
+    font-family: sans-serif;
+}
+
+.item:hover {
+    background: red;
+    transform: scale(1.05);
+}
+
+.social-logo {
+    width: 40px;
+    height: 40px;
 }
