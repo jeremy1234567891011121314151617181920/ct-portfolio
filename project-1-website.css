@@ -1,6 +1,7 @@
 body {
-    background-image: linear-gradient(to right, #0088ff 0%, #00feed 100%);
+    background-image: linear-gradient(to right, #fefefe 0%, #00feed 100%);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
 }
 
 .page-layout {
@@ -29,4 +30,15 @@ footer {
 
 .links a:hover {
     text-decoration: underline;
+}
+
+h2 {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px;
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
 }
