@@ -1,0 +1,16 @@
+body {
+    background-image: radial-gradient(#ffd000 0%, hsl(34, 100%, 50%) 100%);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+
+}
+
+nav {
+    text-align: left;
+}
+
+.links a {
+    text-decoration: none;
+    color: blue;
+    margin: 10px;
+}
